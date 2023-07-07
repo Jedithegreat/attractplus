@@ -4,7 +4,7 @@
 
 - ** attractplus-coins is a fork of attract-mode and atractplus with various community improvements and fixes.**
 
-- **T **
+- ** The goal is to add arcade cab coin mec traits to attractmode games will onley start when coins are added and will be             automaticley deducted after game is launched **
 
 - **
 
