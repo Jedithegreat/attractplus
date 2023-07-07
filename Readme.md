@@ -1,14 +1,12 @@
-### Attract-Mode Plus Frontend
+### attractplus-coins 
 
 --------------------------
 
-- **Attract-Mode Plus is a fork of Attract-Mode with various community improvements and fixes.**
+- ** attractplus-coins is a fork of attract-mode and atractplus with various community improvements and fixes.**
 
-- **The latest binaries can be found in Actions tab ( you have to be logged into Github to see the binaries )**
+- **T **
 
-- **The differences in scripting can be found in Layouts.md file**
-
-- **Feel free to join our [Discord Server](https://discord.gg/86bB9dD).**
+- **
 
 -------------------------
 
