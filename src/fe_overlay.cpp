@@ -201,12 +201,14 @@ FeOverlay::FeOverlay( FeWindow &wnd,
 	: m_wnd( wnd ),
 	m_feSettings( fes ),
 	m_fePresent( fep ),
-	m_textColour( sf::Color::White ),
-	m_bgColour( sf::Color( 0, 0, 0, 230 ) ),
-	m_selFrameColour( sf::Color( 50, 100, 200, 255 ) ),
-	m_selBgColour( sf::Color( 20, 40, 80, 255 ) ),
-	m_lineColour( sf::Color( 40, 80, 160, 192 ) ),
-	m_headingBgColour( sf::Color( 10, 20, 40, 255 ) ),
+	m_textColour( sf::Color::Green),
+	m_bgColour( sf::Color( 0, 255, 0, 230 ) ),
+	m_selFrameColour( sf::Color( 255, 0, 0, 255 ) ),
+	m_selBgColour( sf::Color( 0, 0, 255, 255 ) ),
+//gold collor
+	m_lineColour( sf::Color( 255, 215, 0, 255 ) ),
+//monny green
+	m_headingBgColour( sf::Color( 17, 140, 75, 255 ) ),
 	m_overlay_is_on( false )
 {
 }
