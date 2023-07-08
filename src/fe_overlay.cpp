@@ -201,10 +201,11 @@ FeOverlay::FeOverlay( FeWindow &wnd,
 	: m_wnd( wnd ),
 	m_feSettings( fes ),
 	m_fePresent( fep ),
-	m_textColour( sf::Color::Green),
+	m_textColour( sf::Color::Black),
 	m_bgColour( sf::Color( 0, 255, 0, 230 ) ),
 	m_selFrameColour( sf::Color( 255, 0, 0, 255 ) ),
-	m_selBgColour( sf::Color( 0, 0, 255, 255 ) ),
+//middle bar
+	m_selBgColour( sf::Color( 17, 140, 75, 140 ) ),
 //gold collor
 	m_lineColour( sf::Color( 255, 215, 0, 255 ) ),
 //monny green
