@@ -62,7 +62,7 @@
 #WINDOWS_XP=1
 
 ifeq ($(FE_VERSION),)
-override FE_VERSION := v3.0.4
+override FE_VERSION := v3.0.5
 else
 $(info user set version on command line)
 override FE_VERSION := v$(FE_VERSION)
@@ -393,6 +393,9 @@ endif
 
 CFLAGS += -D__STDC_CONSTANT_MACROS -I$(RES_IMGS_DIR) -I$(RES_FONTS_DIR)
 
+ifeq ($(shell $(PKG_CONFIG) --libs $(TEMP_LIBS) && echo "1" || echo "0"), 0)
+  $(error pkg-config couldn't find some libraries, aborting)
+endif
 LIBS := $(LIBS) $(shell $(PKG_CONFIG) --libs $(TEMP_LIBS))
 CFLAGS := $(CFLAGS) $(shell $(PKG_CONFIG) --cflags $(TEMP_LIBS))
 
